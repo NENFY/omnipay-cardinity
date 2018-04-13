@@ -1,0 +1,38 @@
+{
+    "name": "nenfy/omnipay-cardinity",
+    "type": "library",
+    "description": "Cardinity driver for the Omnipay payment processing library",
+    "keywords": [
+        "nenfy",
+        "cardinity",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/NENFY/omnipay-cardinity",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristaps Jaremčuks",
+            "email": "kristaps.jaremcuks@gmail.com"
+        },
+        {
+            "name": "NENFY",
+            "email": "support@nenfy.com",
+            "homepage": "https://www.nenfy.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Cardinity\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
